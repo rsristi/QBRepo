@@ -1,0 +1,9 @@
+<apex:page controller="QuickBooksAuthenticationService">
+  <apex:form >
+  
+     <apex:messages />            
+     <apex:commandButton action="{!getAuthorizationToken}" Value="Get Authorization Code"/>
+     <apex:commandButton action="{!getAccessToken}" Value="Get AccessToken"/>                       
+     
+  </apex:form>
+</apex:page>
